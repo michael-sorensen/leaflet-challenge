@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+*{
+  font-family: 'Shippori Antique B1', sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -7,4 +13,78 @@ body {
 body,
 html {
   height: 100%;
+}
+
+
+.info{
+  background-color: rgba(0, 0, 0, .7);
+  padding:10px;
+  width:30%;
+  border-radius: 3px;
+  border: 1px solid white;
+
+}
+
+h1{
+  font-size:18px;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  color:white;
+}
+
+h3.legend{
+  color:white;
+  font-size:15px;
+  text-transform: uppercase;
+}
+p.legend{
+  font-size:13px;
+  margin-right:8px;
+  color:white;
+}
+
+.legendColor{
+  color:white;
+  text-transform: uppercase;
+  font-size:12px;
+  padding:8px;
+  text-align: left;
+  display:inline-block;
+  margin-top:4px;
+  vertical-align: middle;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:4px;
+  margin-right:8px;
+  vertical-align: middle;
+  border: 1px solid white;
+}
+
+.dot-lg {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:4px;
+  vertical-align: middle;
+  border: 1px solid white;
+  background-color:#006400;
+}
+
+.dot-sm {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top:4px;
+  margin-right:5px;
+  margin-left:5px;
+  vertical-align: middle;
+  border: 1px solid white;
+  background-color:#006400;
 }
